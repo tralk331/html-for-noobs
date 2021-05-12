@@ -1,6 +1,6 @@
 # Feladat1 - Alap html
 
-Ebben a feladatban felsetupoljátok a VS Code-ot, majd egy alap html dokumentum strukturáját készítititek el.  
+Ebben a feladatban felsetupolod a Git-et, VS Code-ot, majd egy alap html dokumentum strukturáját készíted el.  
 A végén szakszerűen felrakjátok githubra, command line-ból.
 
 ## A VS Code
@@ -28,3 +28,24 @@ Leírom, amiket én használok, ezek optional, de strongly recommended.
 > **Live Server** - Nem kell frissítgetni a böngésző oldalt, mentéskor automatikusan megjelennek a változtatások.
 >
 > **Prettier** - Automatikusan megformázza a kódod mentéskor. Ez a legjobb dolog a világon.
+
+## A Git
+
+Egy verziókezelő rendszer, olvass utána, ide csak annyit írok le hogy kell felrakni a megoldást.
+
+## A feladat
+
+Készítsd el Józsi virágoskertjének oldalát. Az alaphoz használd a vs-code-ba beépített ! + enter snippetet.  
+A böngésző lapján megjelenő szöveg: József Virágos kertje  
+Az oldal tartalmazzon egy header-t, benne egy 1-es szintű címsorral és a virag2.jpg képpel. A kép hossza legyen 100%, a magassága 200px.  
+Legyen egy navigációs menü. Alakíts ki egy számozatlan felsorolást ami a "nav-list" class-t kapja, míg az elemei a "nav-item" class-t.  
+Az alábbi elemek legyenek benne: "Rólam", "Kedvenceim", "Árak". A naviációt linkek végzik, amelyek a megfelelő szekció id-jére mutatnak, pl : Rólam menüpontnál a href: #rolam  
+A main-en belül legyen három szekció, amelyek megkapják a navigáció működéséhez megfelelő azonosítókat: rolam, kedvenceim, arak.  
+A szekciókban a címsorok 2-es szintűek.  
+A rólam szekcióban alakítsd ki a bekezdéseket a "html-kesz-nocss" kép szerint, majd adj hozzá még egy bekezést, ami legalább 100 szavas lorem ipsumot tartalmaz. vscode snippet: lorem100 + enter  
+A kedvenc virágaim szekcióban alakítsd ki a számozott felsorolást. Az alatta lévő címsor 3-as szintű. A címsor alatt készíts egy div-et "flower-pictures" class-al, amibe a 3 virághoz tartozó kép kerül.  
+A képek 200px hosszúak és 150px magasak.
+Az árak részben a címsor alatt az ár kártyák egy "price-cards" osztályú divben vannak, míg a kártyák a "card" osztályt kapják.  
+A kátyán belül a virág neve egyes szintű címsor, az ár pedig `span` tag-en belül van.  
+Ha úgy néz ki, mint a nocss képen, akkor fasza, mostmár hozzákapcsolhatod a css-t.  
+Ha ezután úgy néz ki mint a kész képen, akkor perfect, ha nem, akkor a struktúrával, classok, id-k elnevezésével lehet baj. Próbálj meg a css-ből rájönni, hogy mi nem ugyan olyan.

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+  height: 30vh;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+header img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(40%);
+}
+header h1 {
+  display: inline-block;
+  position: relative;
+  left: 15%;
+  top: 50%;
+  transform: translate(-15%, -50%);
+  color: white;
+  font-size: 2.5rem;
+}
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 6vh;
+  background-color: hsl(300, 100%, 14%);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 81%);
+  font-size: 2rem;
+  transition: color 0.25s ease;
+}
+nav ul li a:hover {
+  color: white;
+}
+main {
+  font-size: 25px;
+  width: 80%;
+  margin: auto;
+  background-color: gray;
+  padding: 10px;
+}
+section {
+  display: block;
+  background-color: white;
+  min-height: 20vh;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+#rolam p {
+  margin-top: 20px;
+}
+#kedvenceim ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+#kedvenceim h3 {
+  margin-bottom: 15px;
+}
+.flower-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.price-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0px;
+}
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(300, 61%, 26%);
+  color: hsl(0, 0%, 81%);
+  border-radius: 20px;
+}
+.card h1 {
+  font-size: 2rem;
+}
