@@ -35,7 +35,7 @@ Egy verziókezelő rendszer, olvass utána, ide csak annyit írok le hogy kell f
 
 ## A feladat
 
-Készítsd el Józsi virágoskertjének oldalát. Az alaphoz használd a vs-code-ba beépített ! + enter snippetet.  
+Készítsd el Józsi virágoskertjének oldalát. Ebbe a mappába hozd létre az index.html file-t. Az alaphoz használd a vs-code-ba beépített ! + enter snippetet.  
 A böngésző lapján megjelenő szöveg: József Virágos kertje  
 Az oldal tartalmazzon egy header-t, benne egy 1-es szintű címsorral és a virag2.jpg képpel. A kép hossza legyen 100%, a magassága 200px.  
 Legyen egy navigációs menü. Alakíts ki egy számozatlan felsorolást ami a "nav-list" class-t kapja, míg az elemei a "nav-item" class-t.  
