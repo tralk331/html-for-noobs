@@ -33,7 +33,7 @@ Leírom, amiket én használok, ezek optional, de strongly recommended.
 
 Egy verziókezelő rendszer, olvass utána, ide csak annyit írok le hogy kell felrakni a megoldást.
 
-A command lineban ahová le akarod tölteni a mappát: `git pull https://github.com/tralk331/html-for-noobs`
+A command lineban ahová le akarod tölteni a mappát: `git clone https://github.com/tralk331/html-for-noobs.git`
 
 Ezt követően csinálj egy új branch-et a neveddel, és váltsd rá át: `git checkout -b branchnév`
 
