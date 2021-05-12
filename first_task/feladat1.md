@@ -19,7 +19,7 @@ A `code` parancs megnyitja a programot. A `.` pedig a mappa relatív elérési �
 Tehát ha mondjuk a html-for-noobs mappából akarnánk megnyitni a first_task mappát, akkor a parancs `code ./first_task` lenne.  
 ![Hogyan kell megcsinálni kép](../feladat_kepek/vscode.png)
 
-Jó, megnyílt a mappa. Szép munka! Innentől már mehet a kódolás, azonban a VSCode erőssége az extensionokben (is) rejlik.  
+Jó, megnyílt a mappa. Szép munka! Már csak le kell szedned a file-okat és mehet a kódolás, azonban a VSCode erőssége az extensionokben (is) rejlik.  
 Az extensions ablakot itt balra is megnyithatod az ikonnal, vagy felül View -> Extensions  
 Leírom, amiket én használok, ezek optional, de strongly recommended.
 
@@ -32,6 +32,16 @@ Leírom, amiket én használok, ezek optional, de strongly recommended.
 ## A Git
 
 Egy verziókezelő rendszer, olvass utána, ide csak annyit írok le hogy kell felrakni a megoldást.
+
+A command lineban ahová le akarod tölteni a mappát: `git pull https://github.com/tralk331/html-for-noobs`
+
+Ezt követően csinálj egy új branch-et a neveddel, és váltsd rá át: `git checkout -b branchnév`
+
+Ha kész teljesen, vagy csak egy része, hozzá kell adnod a file-okat, amit fel akarsz rakni, ez most minden file: `git add .`
+
+Ezt követően commit-elni a változtatásokat `git commit -a -m "commit message arról, hogy mit műveltél"`
+
+Majd fel kell töltened githubra: `git push origin branchneve`
 
 ## A feladat
 
