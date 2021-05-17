@@ -6,13 +6,15 @@ Lesz egy kis előre megírt js is, hogy azt is láss.
 
 ## Git cuccok
 
-Szedd le a main változtatásait. - `git merge master`
+Válts vissza a main branch-ra - `git checkout master`  
+Töltsd le az update-ot - `git pull`  
+Új branch - `git checkout -b 2-new-colors`
 
 ## Color Palette
 
 Ahhoz, hogy egy weboldal jól nézzen ki, kell egy color palette.  
 A legalapvetőbb, amivel nem lehet mellényúlni, az a fekete-fehér.  
-De gyakran érdemes egy color palettet generálni. Én a ![paletton.com-ot]https://paletton.com/ használom.  
+De gyakran érdemes egy color palettet generálni. Én a ![paletton.com-ot](https://paletton.com/) használom.  
 A weboldalhoz generálj egyszínű color pallette-et (tehát egy primary color-t választasz, és annak az árnyalataival dolgozol.)  
 Válassz ki 5 árnyalatot, és mentsd el a színkódjaiket css változóba.  
 Színezd újra az oldalt.
