@@ -5,6 +5,15 @@
   font-family: sans-serif;
   scroll-behavior: smooth;
 }
+body
+{
+  background: url("../../second_task/assets/background.jpg");
+
+}
+.big
+{
+  background-color: rgba(228, 53, 189, 1)
+}
 header {
   width: 100%;
   height: 30vh;
@@ -52,21 +61,40 @@ nav {
   color: white;
   font-size: 42px;
 }
+
 .nav-list {
   position: fixed;
-  left: 0;
+  list-style-type: none;
+  background-color:rgba(56, 0, 44, 1);
+  border-radius: 10px;
+  display: block;
+  Padding: 5px;
+  left: -240px;
   top: 30vh;
   transform: translateX(-100%);
 }
 .nav-open {
-  transform: translateX(0);
+  position: absolute;
+  display: block;
+  left: 0px;
+  top:0;
+  list-style-type: none;
+  animation-name: fadein, fadeout;
+  animation-duration: 3s, 4s;
+  animation-delay: 0s, 10s;
+  animation-fill-mode: forwards, forwards;
+}
+.nav-open:hover
+{
+  animation-fill-mode: forwards, none;
 }
 main {
   font-size: 25px;
   width: 80%;
   margin: auto;
-  background-color: gray;
-  padding: 10px;
+  background-color: rgba(56, 0, 44, 1);
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 0 20px black;
 }
 section {
   display: block;
@@ -98,7 +126,7 @@ section {
 .price-cards {
   display: flex;
   justify-content: space-between;
-  margin: auto 0px;
+  margin: 0 100px 0 100px;
 }
 .card {
   padding: 10px;
@@ -106,10 +134,71 @@ section {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: hsl(300, 61%, 26%);
-  color: hsl(0, 0%, 81%);
+  background-color: rgb(119, 9, 95);
   border-radius: 20px;
+  box-shadow: 0 0 5px black;
+}
+.card:hover
+{
+  background-color:rgba(56, 0, 44, 1);
+  box-shadow: 0 0 5px white;
 }
 .card h1 {
   font-size: 2rem;
+}
+.last
+{
+  border-radius: 0 0 20px 20px;
+}
+.big li 
+{
+  background-color: rgb(119, 9, 95);
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px black;
+}
+.big li:hover
+{
+  background-color:rgba(56, 0, 44, 1);
+  box-shadow: 0 0 5px white;
+}
+.nav-item
+{
+  margin: 5px;
+  background-color: rgb(228, 53, 189);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+}
+.nav-item a
+{
+  color: black;
+  text-decoration: none;
+}
+.nav-item:hover
+{
+  background-color: rgb(119, 9, 95);
+  box-shadow: 0 0 5px white;
+}
+
+.flower-pictures img
+{
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+}
+.flower-pictures img:hover
+{
+  box-shadow: 0 0 10px white;
+}
+
+@keyframes fadein
+{
+  0% { left: -160px; }
+  100% {left: 10px;}
+}
+
+@keyframes fadeout
+{
+  0% {opacity: 1;}
+  100% {opacity: 0.3;}
 }
