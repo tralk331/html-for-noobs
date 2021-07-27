@@ -80,6 +80,9 @@ nav {
   transform: translateX(-100%);
 }
 .nav-open {
+  position: fixed;
+  margin-bottom: 15px;
+  width: 10%;
   height: 100vh;
   list-style-type: none;
   animation-name: fadein, fadeout;
