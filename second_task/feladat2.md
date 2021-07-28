@@ -7,7 +7,7 @@ Lesz egy kis előre megírt js is, hogy azt is láss.
 ## Git cuccok
 
 Válts vissza a main branch-ra - `git checkout master`  
-Töltsd le az update-ot - `git pull`  
+Töltsd le az update-ot - `git fetch` `git pull`  
 Új branch - `git checkout -b 2-new-colors`
 
 ## Color Palette
