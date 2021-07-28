@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(53, 50, 50);
+}
+.character-tile {
+  width: 60%;
+  background-color: #e2e2e2ce;
+  padding: 16px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.character-photo {
+  width: 150px;
+  height: 200px;
+  margin-right: 24px;
+}
